@@ -1,0 +1,13 @@
+diff --git a/node_modules/mdast-util-to-markdown/lib/unsafe.js b/node_modules/mdast-util-to-markdown/lib/unsafe.js
+index 251fe9b..fc9567f 100644
+--- a/node_modules/mdast-util-to-markdown/lib/unsafe.js
++++ b/node_modules/mdast-util-to-markdown/lib/unsafe.js
+@@ -109,7 +109,7 @@ export const unsafe = [
+   },
+   {character: '<', inConstruct: 'destinationLiteral'},
+   // An equals to can start setext heading underlines.
+-  {atBreak: true, character: '='},
++  // {atBreak: true, character: '='},
+   // A greater than can start block quotes and it can break out of a
+   // destination literal.
+   {atBreak: true, character: '>'},

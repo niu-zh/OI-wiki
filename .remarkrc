@@ -1,7 +1,8 @@
 {
   "settings": {
-    "listItemIndent": "mixed",
-    "emphasis": "*"
+    "emphasis": "*",
+    "bullet": "-",
+    "listItemIndent": "one"
   },
   "plugins": [
     "remark-copywriting-correct",
