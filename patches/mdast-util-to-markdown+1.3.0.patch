@@ -1,3 +1,14 @@
+diff --git a/node_modules/mdast-util-to-markdown/lib/handle/break.js b/node_modules/mdast-util-to-markdown/lib/handle/break.js
+index 5f7a3bf..b1e93c2 100644
+--- a/node_modules/mdast-util-to-markdown/lib/handle/break.js
++++ b/node_modules/mdast-util-to-markdown/lib/handle/break.js
+@@ -23,5 +23,5 @@ export function hardBreak(_, _1, context, safe) {
+     }
+   }
+ 
+-  return '\\\n'
++  return '  \n'
+ }
 diff --git a/node_modules/mdast-util-to-markdown/lib/unsafe.js b/node_modules/mdast-util-to-markdown/lib/unsafe.js
 index 251fe9b..fc9567f 100644
 --- a/node_modules/mdast-util-to-markdown/lib/unsafe.js
