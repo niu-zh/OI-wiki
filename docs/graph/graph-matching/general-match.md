@@ -27,8 +27,8 @@ case 2:$u$ 已拜访过，遇到标记 "o" 代表需要 **缩花**，否则代�
 
 设原图为 $G$，**缩花** 后的图为 $G'$，我们只需要证明：
 
-1. 若 $G$ 存在增广路，$G'$ 也存在。
-2. 若 $G'$ 存在增广路，$G$ 也存在。
+1.  若 $G$ 存在增广路，$G'$ 也存在。
+2.  若 $G'$ 存在增广路，$G$ 也存在。
 
 ![general-matching-3](./images/general-matching-3.png)
 
@@ -218,7 +218,7 @@ vector<int> find_max_unweighted_matching(const undirectedgraph<T> &g) {
 
 ## 习题
 
-??? note "[UOJ #79. 一般图最大匹配](https://uoj.ac/problem/79) "
+??? note "[UOJ #79. 一般图最大匹配](https://uoj.ac/problem/79)"
     ```cpp
     #include <bits/stdc++.h>
     using namespace std;
