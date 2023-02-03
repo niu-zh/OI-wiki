@@ -2,7 +2,7 @@
   "settings": {
     "emphasis": "*",
     "bullet": "-",
-    "listItemIndent": "one"
+    "listItemIndent": "mixed"
   },
   "plugins": [
     "remark-copywriting-correct",
