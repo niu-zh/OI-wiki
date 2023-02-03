@@ -2596,10 +2596,10 @@ remark-copywriting-correct@0.6.0:
     unist-util-is "^2.1.1"
     unist-util-visit "^1.1.3"
 
-remark-details@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/remark-details/-/remark-details-4.1.0.tgz#14a39f83fb0a7de607183673fd5d865852d22984"
-  integrity sha512-3J1EV6HLhyR+lYyNet/OlUKLHXrXZTB+IAFhs17gyzC/H+iSMunLuJxYaD2TOR4m/a0XCvbPfCrfDOMKpu2phA==
+remark-details@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/remark-details/-/remark-details-4.1.1.tgz#bfa556ec12923b6330e096554b8c03beaf86e81a"
+  integrity sha512-D/1LMFEVDILgiwMAVyBqLJ0cdTqzxkKeo2SrIrZrwv+zLO0cVPo/7WuXL4gxDzxdbUol0mNFvk2TA2g4QO8hvA==
   dependencies:
     hast "^1.0.0"
     hastscript "^7.0.2"
@@ -3244,7 +3244,7 @@ remark-preset-lint-markdown-style-guide@^5.1.2:
     remark-lint-unordered-list-marker-style "^3.0.0"
     unified "^10.0.0"
 
-remark-stringify@^10.0.0:
+remark-stringify@^10.0.0, remark-stringify@^10.0.2:
   version "10.0.2"
   resolved "https://registry.yarnpkg.com/remark-stringify/-/remark-stringify-10.0.2.tgz#50414a6983f5008eb9e72eed05f980582d1f69d7"
   integrity sha512-6wV3pvbPvHkbNnWB0wdDvVFHOe1hBRAx1Q/5g/EpH4RppAII6J8Gnwe7VbHuXaoKIF6LAg6ExTel/+kNqSQ7lw==
