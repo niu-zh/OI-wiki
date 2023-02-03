@@ -1836,15 +1836,6 @@ mdast-util-find-and-replace@^2.0.0:
     unist-util-is "^5.0.0"
     unist-util-visit-parents "^5.0.0"
 
-mdast-util-footnote@^1.0.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/mdast-util-footnote/-/mdast-util-footnote-1.1.1.tgz#6105aa168ebfd14e2c4f86ae9252b1f063ca8050"
-  integrity sha512-Y8JiA5fZm0kCqvugmSfaSvaVU2trhAmhCYXJOgPKVfmDa8isqzb5Tf7uWvCq4s8I+dll09GZjboItwZFSsD4JQ==
-  dependencies:
-    "@types/mdast" "^3.0.0"
-    mdast-util-to-markdown "^1.0.0"
-    micromark-util-normalize-identifier "^1.0.0"
-
 mdast-util-from-markdown@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/mdast-util-from-markdown/-/mdast-util-from-markdown-1.2.0.tgz#84df2924ccc6c995dec1e2368b2b208ad0a76268"
@@ -2009,20 +2000,6 @@ micromark-core-commonmark@^1.0.0, micromark-core-commonmark@^1.0.1:
     micromark-util-subtokenize "^1.0.0"
     micromark-util-symbol "^1.0.0"
     micromark-util-types "^1.0.1"
-    uvu "^0.5.0"
-
-micromark-extension-footnote@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/micromark-extension-footnote/-/micromark-extension-footnote-1.0.2.tgz#534c42211315406b43625fa29573c7094d5122c2"
-  integrity sha512-sD7t/hooONLnbPYgcQpBcTjh7mPEcD2R/jRS5DLYDNm0XbngbaJZ01F1aI3v6VXVMdAu3XtFKUecNRlXbgGk/Q==
-  dependencies:
-    micromark-core-commonmark "^1.0.0"
-    micromark-factory-space "^1.0.0"
-    micromark-util-character "^1.0.0"
-    micromark-util-chunked "^1.0.0"
-    micromark-util-normalize-identifier "^1.0.0"
-    micromark-util-resolve-all "^1.0.0"
-    micromark-util-symbol "^1.0.0"
     uvu "^0.5.0"
 
 micromark-extension-gfm-autolink-literal@^1.0.0:
@@ -2611,16 +2588,6 @@ remark-details@^4.1.1:
     micromark-util-types "^1.0.1"
     unified "^10.1.0"
     unist-util-visit "^4.1.0"
-
-remark-footnotes@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/remark-footnotes/-/remark-footnotes-4.0.1.tgz#17d3c87ddc240924e8b4590b34a3d79aa8ede50c"
-  integrity sha512-He6YzQFk/Wu2KgfjI80EyPXjt/G+WFaYfUH+xapqPQBdm3aTdEyzosXXv9a2FbTxGqgOfJ4q/TCB46v+wofRpQ==
-  dependencies:
-    "@types/mdast" "^3.0.0"
-    mdast-util-footnote "^1.0.0"
-    micromark-extension-footnote "^1.0.0"
-    unified "^10.0.0"
 
 remark-gfm@^3.0.1:
   version "3.0.1"
